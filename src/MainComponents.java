@@ -6,13 +6,13 @@ import javax.swing.JLabel;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
 import javax.swing.JRadioButton;
 import javax.swing.JCheckBox;
 import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 import javax.swing.JButton;
 import javax.swing.JSlider;
+
 
 public class MainComponents extends JFrame{
 	
@@ -25,6 +25,7 @@ public class MainComponents extends JFrame{
 	private JTextField textID, textPWD;
 	private JButton btnSubmit;
 	private JSlider slider;
+	
 	
 	//Constructor
 	public MainComponents() {
@@ -50,7 +51,7 @@ public class MainComponents extends JFrame{
 		this.setTitle("Main Components");
 		this.setResizable(false);
 		this.setSize(400, 370);
-		this.panel = new JPanel();
+		panel = new JPanel();
 		panel.setLayout(null);
 		this.getContentPane().add(panel, BorderLayout.CENTER);
 	}
@@ -170,8 +171,7 @@ public class MainComponents extends JFrame{
 				// TODO Auto-generated method stub
 				
 			}
-			
-			
+						
 		});
 		panel.add(btnSubmit);
 	}
