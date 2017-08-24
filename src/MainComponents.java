@@ -1,6 +1,8 @@
 import javax.swing.ButtonGroup;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+import javax.swing.JPasswordField;
+
 import java.awt.BorderLayout;
 import javax.swing.JLabel;
 import java.awt.Font;
@@ -16,13 +18,16 @@ import javax.swing.JSlider;
 
 public class MainComponents extends JFrame{
 	
+	private final String TAG = MainComponents.class.getName();
+	
 	private JPanel panel;
 	private JLabel lblMainSwingComponents, lblRadioGroups, lblUserId, lblPswd;
 	private ButtonGroup radioGrp;
 	private JRadioButton radioThue, radioFri, radioSat;
 	private JCheckBox chckbxRed, chckbxGreen, chckbxBlue;
 	private JLabel lblColorChoices, lblSlider;
-	private JTextField textID, textPWD;
+	private JTextField textID;
+	private JPasswordField textPWD;
 	private JButton btnSubmit;
 	private JSlider slider;
 	
@@ -42,6 +47,8 @@ public class MainComponents extends JFrame{
 		this.revalidate();
 		this.repaint();
 		this.setVisible(true);
+		
+		System.out.println(TAG + " class called");
 	}
 
 	
@@ -127,6 +134,7 @@ public class MainComponents extends JFrame{
 		panel.add(lblUserId);
 		
 		textID = new JTextField();
+		textID.setToolTipText("Type User ID");
 		textID.setBounds(286, 199, 86, 20);
 		panel.add(textID);
 		textID.setColumns(10);
@@ -140,7 +148,8 @@ public class MainComponents extends JFrame{
 		lblPswd.setBounds(212, 233, 64, 14);
 		panel.add(lblPswd);
 		
-		textPWD = new JTextField();
+		textPWD = new JPasswordField(10);
+		textPWD.setToolTipText("Type User Password");
 		textPWD.setBounds(286, 230, 86, 20);
 		panel.add(textPWD);
 		textPWD.setColumns(10);

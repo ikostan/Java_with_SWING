@@ -1,11 +1,15 @@
 
 public class Main {
 
+	private final static String TAG = Main.class.getName();
+	
 	public static void main(String[] args) {
 		
-		//FirstRun firstRun = new FirstRun();		
+		System.out.println(TAG + " class called");
+
+		FirstRun firstRun = new FirstRun();		
 		MainComponents mainComponents = new MainComponents();
-		
+
 	}
 
 }

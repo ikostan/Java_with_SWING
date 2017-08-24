@@ -10,6 +10,8 @@ import javax.swing.SwingConstants;
 
 public class FirstRun extends JFrame{
 		
+	private final String TAG = FirstRun.class.getName();
+	
 	private JPanel panel;
 	private JLabel lblLabel;
 	private JButton btnButton, btnHeader;
@@ -28,7 +30,11 @@ public class FirstRun extends JFrame{
 		setClickMeButton();
 		setChangeHeaderBtn();
 		
+		this.revalidate();
+		this.repaint();
 		this.setVisible(true);
+		
+		System.out.println(TAG + " class called");
 	}
 	
 	
