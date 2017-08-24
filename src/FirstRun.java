@@ -3,32 +3,57 @@ import javax.swing.JPanel;
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import java.awt.Font;
 import javax.swing.SwingConstants;
 
 public class FirstRun extends JFrame{
+		
+	private JPanel panel;
+	private JLabel lblLabel;
+	private JButton btnButton, btnHeader;
+	private final String defaultTitle = "First run", newTitle = "New Title";
+	
 	public FirstRun() {
+		
 		setResizable(false);
-		
+				
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		this.setTitle("First run");
+		this.setTitle(defaultTitle);
 		this.setSize(285, 200);
+			
+		setPanel();
+		setLable();
+		setClickMeButton();
+		setChangeHeaderBtn();
 		
-		JPanel panel = new JPanel();
+		this.setVisible(true);
+	}
+	
+	
+	private void setPanel(){
+		
+		panel = new JPanel();
 		getContentPane().add(panel, BorderLayout.CENTER);
 		panel.setLayout(null);
+	}
+	
+	
+	private void setLable(){
 		
-		JLabel lblLabel = new JLabel("");
+		lblLabel = new JLabel("");
 		lblLabel.setHorizontalAlignment(SwingConstants.CENTER);
 		lblLabel.setFont(new Font("Tahoma", Font.BOLD | Font.ITALIC, 20));
-		lblLabel.setBounds(50, 45, 175, 40);
+		lblLabel.setBounds(50, 27, 175, 40);
 		panel.add(lblLabel);
+	}
+	
+	
+	private void setClickMeButton(){
 		
-		JButton btnButton = new JButton("Click me");
-		btnButton.setBounds(50, 115, 175, 25);
+		btnButton = new JButton("Click me");
+		btnButton.setBounds(50, 78, 175, 25);
 		btnButton.addActionListener(new ActionListener(){
 
 			@Override
@@ -46,7 +71,44 @@ public class FirstRun extends JFrame{
 			
 		});
 		panel.add(btnButton);
-		
-		this.setVisible(true);
 	}
+	
+	
+	private void setChangeHeaderBtn(){
+		
+		btnHeader = new JButton("Change Header");
+		btnHeader.setBounds(50, 125, 175, 23);
+		btnHeader.addActionListener(new ActionListener(){
+
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				
+				if(getWindowTitle().equals(defaultTitle)){
+					
+					 setWindowTitle(newTitle);
+				}
+				else{
+					
+					 setWindowTitle(defaultTitle);
+				}
+			}
+			
+		});
+		panel.add(btnHeader);
+	}
+	
+	
+	private String getWindowTitle(){
+		
+		return this.getTitle().toString();
+	}
+	
+	
+	private void setWindowTitle(String title){
+		
+		this.setTitle(title);
+	}
+	
+	
+	//END
 }
