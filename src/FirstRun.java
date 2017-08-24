@@ -24,7 +24,7 @@ public class FirstRun extends JFrame{
 		this.setSize(285, 200);
 			
 		setPanel();
-		setLable();
+		setLabel();
 		setClickMeButton();
 		setChangeHeaderBtn();
 		
@@ -40,7 +40,7 @@ public class FirstRun extends JFrame{
 	}
 	
 	
-	private void setLable(){
+	private void setLabel(){
 		
 		lblLabel = new JLabel("");
 		lblLabel.setHorizontalAlignment(SwingConstants.CENTER);
