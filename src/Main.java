@@ -7,11 +7,11 @@ public class Main {
 		
 		System.out.println(TAG + " class called");
 
-		//FirstRun firstRun = new FirstRun();	
-		//List list = new List();
-		//MainComponents mainComponents = new MainComponents();
-		
+		FirstRun firstRun = new FirstRun();	
+		List list = new List();
+		MainComponents mainComponents = new MainComponents();
 		BoxLayoutExample layouts = new BoxLayoutExample();
+		
 	}
 
 }
