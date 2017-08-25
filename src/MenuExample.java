@@ -10,7 +10,6 @@ import java.awt.GridLayout;
 import java.awt.CardLayout;
 import java.awt.GridBagLayout;
 import java.awt.GridBagConstraints;
-import net.miginfocom.swing.MigLayout;
 import javax.swing.JTextPane;
 import java.awt.Component;
 import javax.swing.JScrollPane;

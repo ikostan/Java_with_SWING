@@ -17,11 +17,9 @@ import java.awt.Component;
 
 
 public class BoxLayoutExample extends JFrame {
-
-	JPanel cards;
 	
 	private final String TAG = BoxLayoutExample.class.getName();
-	JPanel panelBorder, panelCard , panelBox;
+	JPanel panelBorder, panelCard , panelBox, cards;
 	
 	//Constructor
 	public BoxLayoutExample(){
