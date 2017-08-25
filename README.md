@@ -8,4 +8,7 @@ including buttons, text fields, menus, toolbars, and more. After that, thre will
 which occur in your GUI interface when a user interacts with the interface, such as when a user clicks on a button or does a mouseover 
 of one of your components.
 
+### Screenshot:
+![GUI](https://github.com/ikostan/Java_with_SWING/blob/master/src/screenshot.JPG?raw=true "GUI screenshot")
+
 ### Source: https://www.lynda.com/Java-tutorials/Welcome/592496/643976-4.html
