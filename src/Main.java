@@ -9,6 +9,7 @@ public class Main {
 
 		FirstRun firstRun = new FirstRun();		
 		MainComponents mainComponents = new MainComponents();
+		List list = new List();
 
 	}
 
