@@ -14,9 +14,9 @@ import javax.swing.event.ListSelectionListener;
 import javax.swing.JButton;
 
 
-public class List extends JFrame{
+public class Lists extends JFrame{
 	
-	private final static String TAG = List.class.getName();
+	private final static String TAG = Lists.class.getName();
 	
 	JScrollPane logScroll;
 	JTextArea logsArea;
@@ -30,7 +30,12 @@ public class List extends JFrame{
 	private JButton btnNewButton;
 	
 	
-	public List() {
+	static public void main(String args[]){
+		
+		Lists test =  new Lists();
+	}
+	
+	public Lists() {
 				
 		System.out.println(TAG + " class called");
 		
@@ -48,6 +53,7 @@ public class List extends JFrame{
 		setBtnColor();
 		setLogList();
 		
+		this.setLocationRelativeTo(null);
 		this.setVisible(true);
 	}
 	

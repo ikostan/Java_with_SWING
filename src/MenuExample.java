@@ -18,12 +18,20 @@ public class MenuExample extends JFrame{
 
 	private final String TAG = MenuExample.class.getName();
 
-	JMenuBar menuBar;
-	JMenu menu1, menu2;
-	JMenuItem menuItem1, menuItem2, menuItem3, menuItem4;
-	JTextPane textPane;
+	private JMenuBar menuBar;
+	private JMenu menu1, menu2;
+	private JMenuItem menuItem1, menuItem2, menuItem3, menuItem4;
+	private JTextPane textPane;
 	private JScrollPane scrollPane;
 	
+	
+	static public void main(String args[]){
+		
+		MenuExample test =  new MenuExample();
+	}
+	
+	
+	//Constructor
 	public MenuExample(){
 		
 		System.out.println(TAG + " class called");
@@ -39,6 +47,7 @@ public class MenuExample extends JFrame{
 		
 		this.setVisible(true);
 	}
+	
 	
 	private void setTextArea(){
 		

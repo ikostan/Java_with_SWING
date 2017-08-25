@@ -21,6 +21,13 @@ public class BoxLayoutExample extends JFrame {
 	private final String TAG = BoxLayoutExample.class.getName();
 	JPanel panelBorder, panelCard , panelBox, cards;
 	
+	
+	static public void main(String args[]){
+		
+		BoxLayoutExample test =  new BoxLayoutExample();
+	}
+	
+	
 	//Constructor
 	public BoxLayoutExample(){
 		

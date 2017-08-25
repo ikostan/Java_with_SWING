@@ -33,6 +33,13 @@ public class MainComponents extends JFrame{
 	private JSlider slider;
 	
 	
+	
+	static public void main(String args[]){
+		
+		MainComponents test =  new MainComponents();
+	}
+	
+	
 	//Constructor
 	public MainComponents() {
 		

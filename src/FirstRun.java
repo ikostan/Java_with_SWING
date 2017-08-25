@@ -17,7 +17,14 @@ public class FirstRun extends JFrame{
 	private JButton btnButton, btnHeader;
 	private final String defaultTitle = "First run", newTitle = "New Title";
 	
+	static public void main(String args[]){
+		
+		FirstRun test =  new FirstRun();
+	}
+	
 	public FirstRun() {
+		
+		System.out.println(TAG + " class called");
 		
 		setResizable(false);
 				
@@ -32,9 +39,8 @@ public class FirstRun extends JFrame{
 		
 		this.revalidate();
 		this.repaint();
-		this.setVisible(true);
-		
-		System.out.println(TAG + " class called");
+		this.setLocationRelativeTo(null);
+		this.setVisible(true);		
 	}
 	
 	
