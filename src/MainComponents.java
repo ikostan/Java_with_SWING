@@ -23,11 +23,10 @@ public class MainComponents extends JFrame{
 	private final String TAG = MainComponents.class.getName();
 	
 	private JPanel panel;
-	private JLabel lblMainSwingComponents, lblRadioGroups, lblUserId, lblPswd;
+	private JLabel lblMainSwingComponents, lblRadioGroup, lblUserId, lblPswd, lblColorChoices, lblSlider;
 	private ButtonGroup radioGrp;
 	private JRadioButton radioThue, radioFri, radioSat;
 	private JCheckBox chckbxRed, chckbxGreen, chckbxBlue;
-	private JLabel lblColorChoices, lblSlider;
 	private JTextField textID;
 	private JPasswordField textPWD;
 	private JButton btnSubmit;
@@ -77,7 +76,7 @@ public class MainComponents extends JFrame{
 	
 	private void setRadioTitle(){
 		
-		JLabel lblRadioGroup = new JLabel("Radio group:");
+		lblRadioGroup = new JLabel("Radio group:");
 		lblRadioGroup.setFont(new Font("Tahoma", Font.PLAIN, 13));
 		lblRadioGroup.setBounds(26, 66, 75, 20);
 		panel.add(lblRadioGroup);

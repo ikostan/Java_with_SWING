@@ -9,8 +9,9 @@ public class Main {
 
 		//FirstRun firstRun = new FirstRun();	
 		//List list = new List();
-		MainComponents mainComponents = new MainComponents();
-
+		//MainComponents mainComponents = new MainComponents();
+		
+		BoxLayoutExample layouts = new BoxLayoutExample();
 	}
 
 }
