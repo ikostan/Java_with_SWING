@@ -245,8 +245,8 @@ public class List extends JFrame{
 							
 							displayLogs("Background color remains the same: " + color);
 						}
-					}
-					
+						
+					}					
 
 				}									
 				

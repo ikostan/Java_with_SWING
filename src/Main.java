@@ -7,9 +7,9 @@ public class Main {
 		
 		System.out.println(TAG + " class called");
 
-		FirstRun firstRun = new FirstRun();		
+		//FirstRun firstRun = new FirstRun();	
+		//List list = new List();
 		MainComponents mainComponents = new MainComponents();
-		List list = new List();
 
 	}
 

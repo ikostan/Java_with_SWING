@@ -12,6 +12,8 @@ import javax.swing.JRadioButton;
 import javax.swing.JCheckBox;
 import javax.swing.JTextField;
 import javax.swing.SwingConstants;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
 import javax.swing.JButton;
 import javax.swing.JSlider;
 
@@ -158,14 +160,27 @@ public class MainComponents extends JFrame{
 	
 	private void setSliderObj(){
 		
-		lblSlider = new JLabel("Slider:");
+		lblSlider = new JLabel("");
 		lblSlider.setFont(new Font("Tahoma", Font.PLAIN, 13));
-		lblSlider.setBounds(27, 198, 46, 20);
+		lblSlider.setBounds(27, 198, 64, 20);
 		panel.add(lblSlider);
 		
 		slider = new JSlider();
 		slider.setBounds(10, 224, 200, 26);
-		panel.add(slider);		
+		slider.setMaximum(10);
+		slider.setValue(5);
+		slider.addChangeListener(new ChangeListener(){
+
+			@Override
+			public void stateChanged(ChangeEvent arg0) {
+				
+				System.out.println("Slider - value selected: " + slider.getValue());
+				lblSlider.setText(String.format("Slider: %d", slider.getValue()));
+			}
+			
+		});
+		panel.add(slider);	
+		lblSlider.setText(String.format("Slider: %d", slider.getValue()));
 	}	
 	
 	
