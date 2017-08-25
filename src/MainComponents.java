@@ -43,6 +43,8 @@ public class MainComponents extends JFrame{
 	//Constructor
 	public MainComponents() {
 		
+		System.out.println(TAG + " class called");
+		
 		setMainWindow();
 		setWindowTitle();
 		setRadioGrp();
@@ -54,9 +56,8 @@ public class MainComponents extends JFrame{
 		
 		this.revalidate();
 		this.repaint();
-		this.setVisible(true);
-		
-		System.out.println(TAG + " class called");
+		this.setLocationRelativeTo(null);
+		this.setVisible(true);		
 	}
 
 	

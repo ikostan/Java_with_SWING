@@ -45,6 +45,7 @@ public class MenuExample extends JFrame{
 		setMenuBar();
 		setTextArea();
 		
+		this.setLocationRelativeTo(null);
 		this.setVisible(true);
 	}
 	

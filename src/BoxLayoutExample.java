@@ -47,8 +47,8 @@ public class BoxLayoutExample extends JFrame {
 		this.getContentPane().add(panelBox);
 		this.setVisible(true);
 
-		this.pack();
-		
+		this.setLocationRelativeTo(null);
+		this.pack();	
 	}
 	
 	

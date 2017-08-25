@@ -42,7 +42,7 @@ public class Lists extends JFrame{
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.getContentPane().setLayout(null);
 		this.setResizable(false);
-		this.setTitle("JList");
+		this.setTitle(TAG);
 		this.setSize(400, 280);
 		
 		setColors();

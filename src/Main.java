@@ -154,13 +154,13 @@ public class Main extends JFrame{
 	private void setFilesName(){
 		
 		names = new String[]{"FirstRun.jar", 
-						"List.jar", 
+						"Lists.jar", 
 						"MenuExample.jar", 
 						"BoxLayoutExample.jar", 
 						"MainComponents.jar"};
 		
 		descriptions = new String[]{"FirstRun.java class: buttons, lables, title.",
-									"List.java: lists.", 
+									"Lists.java: lists.", 
 									"MenuExample.java: menu examples.", 
 									"BoxLayoutExample.java: different layouts presentation.", 
 									"MainComponents.java: main GUI components presentation."};
