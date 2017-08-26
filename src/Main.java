@@ -24,7 +24,6 @@ public class Main extends JFrame{
 
 	private final String TAG = Main.class.getName();
 	
-	
 	private JComboBox combo;
 	private DefaultComboBoxModel comboModel;
 	private String[] names;
@@ -152,14 +151,16 @@ public class Main extends JFrame{
 						"ListDemo.jar",
 						"MenuExample.jar", 
 						"BoxLayoutExample.jar", 
-						"MainComponents.jar"};
+						"MainComponents.jar",
+						"ItemListenerExample.jar"};
 		
 		descriptions = new String[]{"FirstRun.java class: buttons, lables, title.",
 									"Lists.java: lists.", 
 									"ListDemo.java: aditional list example.",
 									"MenuExample.java: menu examples.", 
 									"BoxLayoutExample.java: different layouts presentation.", 
-									"MainComponents.java: main GUI components presentation."};
+									"MainComponents.java: main GUI components presentation.",
+									"ItemListenerExample.java: ItemListener with multiple source items implementation."};
 	}
 	
 
