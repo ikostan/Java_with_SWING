@@ -152,7 +152,8 @@ public class Main extends JFrame{
 						"MenuExample.jar", 
 						"BoxLayoutExample.jar", 
 						"MainComponents.jar",
-						"ItemListenerExample.jar"};
+						"ItemListenerExample.jar",
+						"EventExample.jar"};
 		
 		descriptions = new String[]{"FirstRun.java class: buttons, lables, title.",
 									"Lists.java: lists.", 
@@ -160,7 +161,8 @@ public class Main extends JFrame{
 									"MenuExample.java: menu examples.", 
 									"BoxLayoutExample.java: different layouts presentation.", 
 									"MainComponents.java: main GUI components presentation.",
-									"ItemListenerExample.java: ItemListener with multiple source items implementation."};
+									"ItemListenerExample.java: ItemListener with multiple source items implementation.",
+									"EventExample.java: EventListener example"};
 	}
 	
 
