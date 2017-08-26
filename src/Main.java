@@ -149,12 +149,14 @@ public class Main extends JFrame{
 		
 		names = new String[]{"FirstRun.jar", 
 						"Lists.jar", 
+						"ListDemo.jar",
 						"MenuExample.jar", 
 						"BoxLayoutExample.jar", 
 						"MainComponents.jar"};
 		
 		descriptions = new String[]{"FirstRun.java class: buttons, lables, title.",
 									"Lists.java: lists.", 
+									"ListDemo.java: aditional list example.",
 									"MenuExample.java: menu examples.", 
 									"BoxLayoutExample.java: different layouts presentation.", 
 									"MainComponents.java: main GUI components presentation."};
