@@ -162,8 +162,8 @@ public class Main extends JFrame{
 									"BoxLayoutExample.java: different layouts presentation.", 
 									"MainComponents.java: main GUI components presentation.",
 									"ItemListenerExample.java: ItemListener with multiple source items implementation.",
-									"EventExample.java: EventListener example",
-									"FinalProject.class: Final Project"};
+									"EventExample.java: EventListener example.",
+									"FinalProject.class: Final Project."};
 	}
 	
 
