@@ -37,19 +37,14 @@ public class Main extends JFrame{
 	private JScrollPane scrollPane;
 
 	
+	//Main method
 	public static void main(String[] args) {
-		
-
-		//FirstRun firstRun = new FirstRun();	
-		//List list = new List();
-		//MainComponents mainComponents = new MainComponents();
-		//BoxLayoutExample layouts = new BoxLayoutExample();		
-		//MenuExample menuExample = new MenuExample();
 		
 		Main test = new Main();
 	}
 	
 	
+	//Constructor
 	public Main() {
 		
 		System.out.println(TAG + " class called");
@@ -94,7 +89,6 @@ public class Main extends JFrame{
 				
 		paneDescription = new JTextPane();
 		paneDescription.setText(descriptions[combo.getSelectedIndex()]);
-		//getContentPane().add(lbDescription, BorderLayout.CENTER);
 		
 		scrollPane = new JScrollPane(paneDescription);
 		scrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
