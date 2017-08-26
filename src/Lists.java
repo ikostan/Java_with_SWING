@@ -25,6 +25,7 @@ public class Lists extends JFrame{
 	int listSize;
 	DefaultListModel leftModel, rightModel;
 	Color[] colors;
+	
 	JList listRight, listLeft;
 	JButton btnLeft, btnRight;
 	private JButton btnNewButton;
