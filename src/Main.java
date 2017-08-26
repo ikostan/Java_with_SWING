@@ -139,8 +139,7 @@ public class Main extends JFrame{
 			//Error
 			String error = ex.getMessage();
 			JOptionPane.showMessageDialog(null, error, "Error", JOptionPane.ERROR_MESSAGE);
-		}	
-		
+		}			
 	}
 	
 	
@@ -153,7 +152,8 @@ public class Main extends JFrame{
 						"BoxLayoutExample.jar", 
 						"MainComponents.jar",
 						"ItemListenerExample.jar",
-						"EventExample.jar"};
+						"EventExample.jar",
+						"FinalProject.jar"};
 		
 		descriptions = new String[]{"FirstRun.java class: buttons, lables, title.",
 									"Lists.java: lists.", 
@@ -162,7 +162,8 @@ public class Main extends JFrame{
 									"BoxLayoutExample.java: different layouts presentation.", 
 									"MainComponents.java: main GUI components presentation.",
 									"ItemListenerExample.java: ItemListener with multiple source items implementation.",
-									"EventExample.java: EventListener example"};
+									"EventExample.java: EventListener example",
+									"FinalProject.class: Final Project"};
 	}
 	
 
