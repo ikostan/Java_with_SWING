@@ -145,16 +145,17 @@ public class Main extends JFrame{
 	private void setFilesName(){
 		
 		names = new String[]{"FirstRun.jar", 
-						"Lists.jar", 
-						"ListDemo.jar",
-						"MenuExample.jar", 
-						"BoxLayoutExample.jar", 
-						"MainComponents.jar",
-						"ItemListenerExample.jar",
-						"EventExample.jar",
-						"FinalProject.jar",
-						"FlowLayoutSample.jar",
-						"GraphicsSample.jar"};
+							"Lists.jar", 
+							"ListDemo.jar",
+							"MenuExample.jar", 
+							"BoxLayoutExample.jar", 
+							"MainComponents.jar",
+							"ItemListenerExample.jar",
+							"EventExample.jar",
+							"FinalProject.jar",
+							"FlowLayoutSample.jar",
+							"GraphicsSample.jar",
+							"ColorPicker.jar"};
 		
 		descriptions = new String[]{"FirstRun.java class: buttons, lables, title.",
 									"Lists.java: lists.", 
@@ -166,7 +167,8 @@ public class Main extends JFrame{
 									"EventExample.java: EventListener example.",
 									"FinalProject.class: Final Project.",
 									"FlowLayoutSample.class: Simple sample",
-									"GraphicsSample.class: Basic graphics sample"};
+									"GraphicsSample.class: Basic graphics sample",
+									"Simple color picker application."};
 	}
 	
 

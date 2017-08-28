@@ -1,26 +1,14 @@
 import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
 import javax.swing.JButton;
 import javax.swing.JColorChooser;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-import javax.swing.JTextPane;
-import java.awt.FlowLayout;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
-
-import java.awt.GridLayout;
-
 import javax.swing.BoxLayout;
-import javax.swing.GroupLayout;
-import javax.swing.GroupLayout.Alignment;
-import java.awt.GridBagLayout;
-import java.awt.GridBagConstraints;
-import java.awt.Insets;
 import java.awt.BorderLayout;
-import java.awt.Component;
 import javax.swing.ScrollPaneConstants;
 
 public class ColorPicker extends JFrame{
