@@ -30,7 +30,6 @@ public class Main extends JFrame{
 	private String[] descriptions;
 	private JTextPane paneDescription;
 	private JButton btnRun;
-	
 	private static Path currentRelativePath;
 	private static String rootFolder;
 	private JScrollPane scrollPane;
