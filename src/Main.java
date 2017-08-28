@@ -153,7 +153,8 @@ public class Main extends JFrame{
 						"MainComponents.jar",
 						"ItemListenerExample.jar",
 						"EventExample.jar",
-						"FinalProject.jar"};
+						"FinalProject.jar",
+						"FlowLayoutSample.jar"};
 		
 		descriptions = new String[]{"FirstRun.java class: buttons, lables, title.",
 									"Lists.java: lists.", 
@@ -163,7 +164,8 @@ public class Main extends JFrame{
 									"MainComponents.java: main GUI components presentation.",
 									"ItemListenerExample.java: ItemListener with multiple source items implementation.",
 									"EventExample.java: EventListener example.",
-									"FinalProject.class: Final Project."};
+									"FinalProject.class: Final Project.",
+									"FlowLayoutSample.class: Simple sample"};
 	}
 	
 
