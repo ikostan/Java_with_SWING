@@ -40,6 +40,7 @@ public class FlowLayoutSample extends JFrame{
 		container = this.getContentPane();
 		
 		this.setLayout(layout);
+		this.setLocationRelativeTo(null);
 		this.setVisible(true);
 	}
 	
